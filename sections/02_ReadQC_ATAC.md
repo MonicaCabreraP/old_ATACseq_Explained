@@ -1,3 +1,5 @@
+# Quality control
+
 | |  | 
 | -------|------------|
 |*Program*:| [FastQC](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/)<sup>1</sup> | | 
@@ -8,6 +10,7 @@
 
 * [Fastq file format](#input-fastq-file-format)
 * [Read quality ](#read-quality)
+* [Results ](#results)
 * [References](#references)
 
 ## Input: fastq file format
@@ -62,9 +65,9 @@ p=0.001%, Q=30
 
 > The reads that we displayed above are encoded using Phred 33 (Illumina 1.9), can you estimate how good the base calls are based on the map above ?
 
-# Quality control
+## Results
 
-We will use the [FastQC](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/) tool to perform basis quality assessment of the raw reads. This tools give us the following information -
+This tools give us the following information -
 
 - [Basic Statistics](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/Help/3%20Analysis%20Modules/1%20Basic%20Statistics.html)
 - [Per base sequence quality](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/Help/3%20Analysis%20Modules/2%20Per%20Base%20Sequence%20Quality.html)
@@ -79,7 +82,6 @@ We will use the [FastQC](https://www.bioinformatics.babraham.ac.uk/projects/fast
 - [Adapter Content](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/Help/3%20Analysis%20Modules/10%20Adapter%20Content.html)
 
 Based on these parameters one could estimate the sequencing quality and identify major problems right at the beginning of a project.
-
 
 # References
 
