@@ -1,25 +1,20 @@
 | |  | 
 | -------|------------|
 |*Program*:| [FastQC](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/)<sup>1</sup> | | 
-|*Input(s)*:| fastq files (fastq.gz or fq.gz) containing sequence reads (paired end) |
+|*Input(s)*:| fastq files containing sequence reads (paired end) |
 |*Output(s)*:|  fastqc.html and fastqc.zip |
-|*Command(s)*:| **fastqc \*1.fastq.gz -o ${path_atac_results}** #same for *2.fastq.gz |
+|*Command(s)*:| **fastqc \*.fastq.gz -o ${path_atac_results}** #for *1.fastq.gz and *2.fastq.gz |
 |*Report*:| Html with base quality scores, GC content, sequence length distribution, sequence duplication levels, k-mer overrepresentation and contamination of primers and adapters in the sequencing data. |
 
-* [Fastq file format](#fastq-file-format)
+* [Fastq file format](#input-fastq-file-format)
+* [Read quality ](#read-quality)
 * [References](#references)
 
-
-
-## Otros casos de uso
-
-## fastq file format
-Raw sequencing reads are stored in text files containing the sequence of nucleotides and its associated quality scores. These are called `fastq` text files and are usually in compressed formats like `XYZ.fastq.gz`. Each read is described by **4 lines**, let's look at the first four lines of an example `fastq` file -
+## Input: fastq file format
+Raw sequencing reads are stored in text files containing the sequence of nucleotides and its associated quality scores. These are called `fastq` text files and are usually in compressed formats like `.fastq.gz` or `fq.gz`. Each read is described by **4 lines**, let's look at the first four lines of an example `fastq` file -
 
 ```
-cd
-
-zcat data/fastqdata/ATACseq/ATAC_Rep1_ENCFF121EPT.fastq_R1.gz | head -n 4
+zcat *.fastq_R1.gz | head -n 4
 
 @J00118:569:HGKLCBBXY:5:1101:1489:1261 1:N:0:GTAGAGGA+AGAGTANA
 AATCAGCACCCTGTGTCTAGCTCANGGTTTGTAAANATACCANTCAGCACTCTNTATCTAGCTAATCNAGTGNAGANCTTTTGTGTCTAGCTNAGGGNTTG
