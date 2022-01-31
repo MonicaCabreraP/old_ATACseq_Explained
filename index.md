@@ -14,3 +14,7 @@
   - Peak calling
 
 - **Downstream analysis**
+
+## License
+
+This ATAC-Seq pipeline is distributed under the GPLv3.
