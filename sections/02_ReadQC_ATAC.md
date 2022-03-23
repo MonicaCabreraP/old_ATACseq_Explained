@@ -5,7 +5,7 @@
 |*Program*:| [FastQC](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/)<sup>1</sup> | | 
 |*Input(s)*:| fastq files containing sequence reads (paired end) |
 |*Output(s)*:|  fastqc.html and fastqc.zip |
-|*Command(s)*:| **fastqc \*.fastq.gz -o ${path_atac_results}** #for *1.fastq.gz and *2.fastq.gz |
+|*Command(s)*:| **fastqc \*.fastq.gz -o path_atac_results** #for *1.fastq.gz and *2.fastq.gz |
 |*Report*:| Html with base quality scores, GC content, sequence length distribution, sequence duplication levels, k-mer overrepresentation and contamination of primers and adapters in the sequencing data. |
 
 * [Fastq file format](#input-fastq-file-format)
@@ -65,7 +65,7 @@ p=0.001%, Q=30
 
 > The reads that we displayed above are encoded using Phred 33 (Illumina 1.9), can you estimate how good the base calls are based on the map above ?
 
-## Results
+## FASTQC results
 
 This tools give us the following information -
 
