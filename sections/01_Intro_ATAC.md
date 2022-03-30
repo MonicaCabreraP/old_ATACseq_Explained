@@ -28,3 +28,22 @@ DNA 13 , pioneer factors arguably bind to nucleosomes
 and mediate core histone displacement either inde­
 pendently or by recruiting ATP-​dependent chromatin
 remodeller
+
+- **Why is it important to use this technique?** 
+  Because cells package chromatin differently depending on their funciton and phenotype, profiling chromaint accessibility is a primary approach for understanding cell states.
+  
+* Chromatin is composed of nucleosomes, which each consistin of a histone octamer core wrapped by 147bp of DNA (buck 2014) and the accessiblity of chromatin can be assesd based on the nucleosome density; dense nucleosome (regions (closed regions) are tighy packed whereas loose nucleosome regions (open regions) are more accessible. The chromatin accessibility is directly associated with gene expression and biological functions such as cellular differentiation and reprogramming (Jung et al 2017).
+
+ATAC requires less material (500-50,000 cells) of tissue/cells and sample-processing time
+
+Bioinfo: To date , for different target audiences, several comprehensive pipelines have been developed for processing ATAC-seq data. GUAVA (Divate and Cheung, 2018), I-ATAC (Ahmed and Ucar, 2017), NucleoATAC (Schep et al 2015), The ENCODE ATAC-seq pipelilne (kundae, 2018), ATACseqQC(Ou et al 2018), and esATAC(Wei et al 2018), nf-core/atacseq (Ewels et al, 2020) --> most of these tools require users to be able to workd with the command-line interface (CLI) on linux-like systems. ATACgraph no.Rita Lu 2021
+
+*ACtivity of regulatory elements varies spatially, temporally, and among cell types to influence the binding of transcription factors and the expression of target genes (Sheffield et al 2013; Song et al 2011). Studying the activity of regulatory elements promises to not only increase understanding of the funtadmental biology of gene regulation but also its influence on himan health and disease.
+
+ATAC-seq has been adopted rapidly in the scientific community with the number of studies using ATAC-seq approaching 10,00 in just few years. The primary factor are advangates.
+
+
+Fundamentas of ATACseq data anlysis:
+steps...
+
+ATACseq is a powerful techinique for the study of CREs - Cis Regulatory Elements - non-coding DNA regions involved in the spatio-temporal regulation of gene expressio. These CREs mainly consitituted of enhancers and promoters, contain DNA binding sites for transcription factors (TF). TFs binding at CREs facilitate the recruitment of the RNA polymerase II machinery at the promoter of target genes, triggering their expression. Therefore, identification of the CREs bound by these TF that respon to signaling pathways would help to unrevel how developmental genes integrate these signals. In the last years, the identification of CREs has been bossted by the emergence of next-generation sequencing. 
