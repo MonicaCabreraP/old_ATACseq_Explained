@@ -47,3 +47,9 @@ Fundamentas of ATACseq data anlysis:
 steps...
 
 ATACseq is a powerful techinique for the study of CREs - Cis Regulatory Elements - non-coding DNA regions involved in the spatio-temporal regulation of gene expressio. These CREs mainly consitituted of enhancers and promoters, contain DNA binding sites for transcription factors (TF). TFs binding at CREs facilitate the recruitment of the RNA polymerase II machinery at the promoter of target genes, triggering their expression. Therefore, identification of the CREs bound by these TF that respon to signaling pathways would help to unrevel how developmental genes integrate these signals. In the last years, the identification of CREs has been bossted by the emergence of next-generation sequencing. 
+
+*Adapter-ligated genomic regions, which are typically nucleosome-depeled and euchromatic, can then be enriched for sequencing
+
+ATAC-seq has been used to both identify basal accessibile chromatin regions in a given cellular context as well as determine regions differentially accesible (DA) between two cellular states. 
+
+Differential accessibility analysis of ATAC-seq data can be sensitive to underlying biases withing the data,as might be expected. The design of the primary analyzed data set involved disruptin a chromatin remodeler subunit, which probably affects genome-sacel chromatin structure and comparing chormatin accessiblity to that of control cells. Analytitca interpretation is 
